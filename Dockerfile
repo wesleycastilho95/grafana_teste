@@ -1,6 +1,6 @@
 FROM grafana/grafana:7.2.0
 
-#COPY grafana.ini /etc/grafana/grafana.ini
+COPY grafana.ini /etc/grafana/grafana.ini
 #COPY icon-logo.svg /usr/share/grafana/public/img/grafana_icon.svg
 #COPY fav32.png /usr/share/grafana/public/img/fav32.png
 #COPY /provisioning_dashboards/* /etc/grafana/provisioning/dashboards/
